@@ -10,3 +10,5 @@
 | Zaky Fathurrahman | 5025231105 |
 | Muhammad Khibban I'tishom | 5025231126 |
 | Richard Hans Ng | 5025231180 |
+
+# Chapter I: Turing Machine

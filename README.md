@@ -11,4 +11,5 @@
 | Muhammad Khibban I'tishom | 5025231126 |
 | Richard Hans Ng | 5025231180 |
 
-# Chapter I: Turing Machine
+# Chapter I: Mesin Turing
+Mesin Turing adalah model komputasi teoritis yang menggambarkan mesin abstrak yang memanipulasi simbol pada suatu pita menurut tabel aturan. Mesin ini beroperasi pada pita dengan memori tak terbatas yang dibagi menjadi sel-sel diskrit, yang masing-masing dapat menyimpan satu simbol yang diambil dari sekumpulan simbol terbatas yang terdaftar pada mesin. Mesin ini memiliki _head_ yang, pada titik mana pun dalam operasi mesin, diposisikan di atas salah satu sel ini, dan _state_ yang dipilih dari sekumpulan _state_ yang terbatas. Pada setiap langkah operasinya, _head_ membaca simbol dalam selnya. Kemudian, berdasarkan simbol dan keadaan mesin saat ini, mesin menulis simbol ke dalam sel yang sama, dan menggerakkan head satu langkah ke kiri atau ke kanan, atau menghentikan penghitungan. Pilihan simbol pengganti mana yang akan ditulis, ke arah mana untuk menggerakkan kepala, dan apakah akan berhenti didasarkan pada tabel berhingga yang menentukan apa yang harus dilakukan untuk setiap kombinasi keadaan saat ini dan simbol yang dibaca.

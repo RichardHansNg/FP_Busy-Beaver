@@ -1,4 +1,4 @@
-# Automata Theory Final Project: The Busy Beaver
+# Automata Theory Final Project: The Busy Beaver Problem
 ![image](https://github.com/user-attachments/assets/605834e7-c3b9-41a8-b9a7-3756f388f1b8)
 
 *Why is The Beaver Busy?*

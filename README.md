@@ -26,5 +26,5 @@ _Busy Beaver Problem_ adalah sebuah masalah teoritis yang mengeksplorasi batas-b
 Fungsi _Busy Beaver_, dilambangkan sebagai `BB(n)`, merepresentasikan jumlah langkah maksimum untuk mesin Turing yang berhenti dengan `n` state. Sebagai contoh:
 - Untuk `n = 1`, mesin yang paling sibuk akan berhenti setelah beberapa langkah.
 - Seiring bertambahnya `n`, `BB(n)` tumbuh dengan sangat cepat—lebih cepat daripada fungsi yang dapat dihitung.
-- 
+
 Pertumbuhan yang cepat ini membuat `BB(n)` tidak mungkin dihitung bahkan untuk nilai `n` yang relatif kecil, karena kerumitan mesin dan banyaknya langkah yang terlibat. Selain itu, masalah ini berhubungan dengan _halting problem_, yang membuktikan bahwa tidak ada cara umum untuk memprediksi apakah sebuah mesin Turing sembarang akan berhenti, menambah ketidakmungkinan komputasi untuk `n` yang lebih besar.

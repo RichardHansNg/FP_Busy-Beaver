@@ -28,13 +28,3 @@ Fungsi _Busy Beaver_, dilambangkan sebagai `BB(n)`, merepresentasikan jumlah lan
 - Seiring bertambahnya `n`, `BB(n)` tumbuh dengan sangat cepat—lebih cepat daripada fungsi yang dapat dihitung.
 
 Pertumbuhan yang cepat ini membuat `BB(n)` tidak mungkin dihitung bahkan untuk nilai `n` yang relatif kecil, karena kerumitan mesin dan banyaknya langkah yang terlibat. Selain itu, masalah ini berhubungan dengan _halting problem_, yang membuktikan bahwa tidak ada cara umum untuk memprediksi apakah sebuah mesin Turing sembarang akan berhenti, menambah ketidakmungkinan komputasi untuk `n` yang lebih besar.
-
-# Chapter III: 1-State for The Busy Beaver
-Untuk skenario _1-State Turing Machine_, mesin Turing hanya memiliki satu _state_, dan mesin tersebut harus membuat keputusan apa yang perlu dilakukan saat melakukan _read_ `0` dan `1`. Dalam _Busy Beaver Problem_, semua sel pada _tape_ diisi dengan `0`. Dengan begitu, mesin Turing mulai dengan membaca `0`.
-
-
-
-
-# Chapter IV: 2-State for The Busy Beaver
-
-# Chapter V: 3-State for The Busy Beaver

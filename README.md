@@ -1,6 +1,6 @@
-## Automata Theory Final Project: The Busy Beaver
+# Automata Theory Final Project: The Busy Beaver
 
-# Why is The Beaver Busy?
+Why is The Beaver Busy?
 
 # Otomata E - Kelompok 6
 - Zaky Fathurrahman (5025231105)

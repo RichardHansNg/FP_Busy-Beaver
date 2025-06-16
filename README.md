@@ -22,3 +22,9 @@ Anggap jika kita memiliki sebuah mesin Turing `M` dan sebuah string sembarang `s
 
 # Chapter II: Berang-berang yang Sibuk
 _Busy Beaver Problem_ adalah sebuah masalah teoritis yang mengeksplorasi batas-batas komputasi. Dalam _Busy Beaver Problem_, pertanyaan yang umumnya dilontarkan adalah berapa jumlah langkah maksimum yang dapat dilakukan oleh mesin Turing dengan jumlah state `n` tertentu sebelum berhenti, ketika dimulai dengan pita kosong (semua sel disetel ke 0)? Tujuannya adalah untuk menemukan mesin yang paling "sibuk"—mesin yang berjalan paling lama sebelum berhenti—untuk setiap jumlah state yang mungkin.
+
+Fungsi _Busy Beaver_, dilambangkan sebagai `BB(n)`, merepresentasikan jumlah langkah maksimum untuk mesin Turing yang berhenti dengan `n` state. Sebagai contoh:
+- Untuk `n = 1`, mesin yang paling sibuk akan berhenti setelah beberapa langkah.
+- Seiring bertambahnya `n`, `BB(n)` tumbuh dengan sangat cepat—lebih cepat daripada fungsi yang dapat dihitung.
+- 
+Pertumbuhan yang cepat ini membuat `BB(n)` tidak mungkin dihitung bahkan untuk nilai `n` yang relatif kecil, karena kerumitan mesin dan banyaknya langkah yang terlibat. Selain itu, masalah ini berhubungan dengan _halting problem_, yang membuktikan bahwa tidak ada cara umum untuk memprediksi apakah sebuah mesin Turing sembarang akan berhenti, menambah ketidakmungkinan komputasi untuk `n` yang lebih besar.
